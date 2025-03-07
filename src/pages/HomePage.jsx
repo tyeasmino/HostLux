@@ -10,6 +10,7 @@ import ScrollToTop from '../components/ScrollToTop'
 import Features from '../components/Features'
 import CriteriaCard from '../components/CriteriaCard'
 import MigratingHosting from '../components/MigratingHosting'
+import Brands from '../components/Brands'
 
 
 
@@ -33,7 +34,7 @@ const HomePage = () => {
             <AppIntegrations />
             <Features />
             <MigratingHosting />
-
+            <Brands />
 
 
             <ScrollToTop />

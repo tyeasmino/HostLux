@@ -206,7 +206,7 @@ const Navbar = () => {
                         styles={customStyles}
                         className="w-40 absolute -top-3"
                     />
-                    <a className="flex items-center gap-3 font-semibold bg-blue-600 px-10 py-3 rounded text-white"><MdOutlinePersonAddAlt /> Register</a>
+                    <Link to='/register' className="flex items-center gap-3 font-semibold bg-blue-600 px-10 py-3 rounded text-white"><MdOutlinePersonAddAlt /> Register</Link>
                 </div>
             </div>
             <div className='w-full h-[0.5px] bg-gray-500'></div>

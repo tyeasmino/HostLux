@@ -5,6 +5,11 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import HostingPlan from '../components/HostingPlan'
 import WeAre from '../components/WeAre'
+import AppIntegrations from '../components/AppIntegrations'
+import ScrollToTop from '../components/ScrollToTop'
+import Features from '../components/Features'
+import CriteriaCard from '../components/CriteriaCard'
+import MigratingHosting from '../components/MigratingHosting'
 
 
 
@@ -20,10 +25,18 @@ const HomePage = () => {
                     <HeroSection />
                 </div>
             </div>
-            <HostingPlan />
+            <div className='relative'>
+                <CriteriaCard /> 
+                <HostingPlan />
+            </div>
             <WeAre />
+            <AppIntegrations />
+            <Features />
+            <MigratingHosting />
 
 
+
+            <ScrollToTop />
         </section>
     )
 }

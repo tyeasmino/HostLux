@@ -12,7 +12,7 @@ import picon4 from '../assets/hostingplan/pricing-icon-04.png'
 const HostingPlan = () => {
     return (
         <section style={{ backgroundImage: `url(${hostingbg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-            <div className='max-w-screen-xl mx-auto py-20 md:py-40'>
+            <div className='max-w-screen-xl mx-auto py-20'>
                 <div className='mt-40'>
                     <h1 className='max-w-screen-sm mx-auto mb-20 md:text-4xl font-bold text-center' >Get the More Powerful With Hostez
                         Website Hosting Plans</h1>
